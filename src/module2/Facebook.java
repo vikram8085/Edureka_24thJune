@@ -1,7 +1,10 @@
 package module2;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Facebook {
@@ -16,6 +19,7 @@ public class Facebook {
 		driver.get("https://www.facebook.com/");
 		
 		//Locators
+				/*
 				//ID
 				driver.findElement(By.id("u_0_l")).sendKeys("Vikram");
 				
@@ -27,12 +31,22 @@ public class Facebook {
 				driver.findElement(By.className("inputtext")).sendKeys("Aditya");
 				
 				//Linktext
+				driver.findElement(By.linkText("Forgotten account?")).click();
 				
-				//PartialLinkText
+				driver.navigate().back();
 				
-				//CSS Locator
+				//PartialLinktext
+				driver.findElement(By.partialLinkText("N a")).click();
 				
+				
+				//Css Locator
+				driver.findElement(By.cssSelector("#email")).sendKeys("Vikram");
+				*/
 				//TagName
+				List<WebElement> taglist = driver.findElements(By.tagName("a"));
+				
+				System.out.println(taglist.size());
+						
 				
 				//Xpath
 				
