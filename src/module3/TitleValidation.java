@@ -18,9 +18,9 @@ public class TitleValidation {
 				System.out.println(Apptitle);
 				
 				//validate the actual title VS Expected Title
-				boolean Result = Apptitle.equals("Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
+				//boolean Result = Apptitle.equals("Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
 				
-				System.out.println(Result);
+				//System.out.println(Result);
 
 	}
 
