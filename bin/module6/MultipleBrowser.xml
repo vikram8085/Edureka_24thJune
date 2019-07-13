@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameterization">
+	<test name="Chrome">
+		<parameter name="Uname" value="abhresh"></parameter>
+		<parameter name="Pass" value="abhresh"></parameter>
+		<classes>
+			<class name="module6.TestNG"></class>
+		</classes>
+	</test>
+</suite>

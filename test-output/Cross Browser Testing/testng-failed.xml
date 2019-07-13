@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cross Browser Testing]">
+  <test thread-count="5" name="Firefox(failed)">
+    <parameter name="B" value="Firefox"/>
+    <classes>
+      <class name="module6.Scenario3">
+        <methods>
+          <include name="login_TestCase"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- module6.Scenario3 -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Cross Browser Testing] -->

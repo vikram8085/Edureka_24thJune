@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParallelTesting" parallel="tests">
+	<test name="Chrome1">
+		<classes>
+			<class name="module6.Scenario3"></class>
+			<class name="module6.Scenario2"></class>
+			<class name="module6.Scenario1"></class>
+			<class name="module6.Scenario0"></class>
+		</classes>
+	</test>
+	<test name="Firefox">
+		<classes>
+<class name="module6.Scenario3"></class>
+			<class name="module6.Scenario2"></class>
+			<class name="module6.Scenario1"></class>
+			<class name="module6.Scenario0"></class>
+	</classes>
+	</test>
+</suite>
